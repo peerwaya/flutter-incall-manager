@@ -201,8 +201,8 @@ class IncallManager {
         bool isNear = map['isNear'];
         break;
       case 'onAudioFocusChange':
-        String eventText = map['eventText'];
-        bool eventCode = map['eventCode'];
+        // String eventText = map['eventText'];
+        // bool eventCode = map['eventCode'];
         break;
       case 'onAudioDeviceChanged':
         String availableAudioDeviceList = map['availableAudioDeviceList'];
